@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1b1b1b;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 25px #000;
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+#checkbox{
+    margin: 10px;
+}
+
+.input-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.task-label {
+  color: #eee !important;
+}
+
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #d9d9d9;
+}
+
+#addBtn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: rgb(116, 116, 116);
+    font-weight: bold;
+    color: #eee;
+    transition: 0.3s;
+}
+
+#addBtn:hover {
+    background: #015d04;
+}
+
+#taskList {
+    list-style: none;
+}
+
+.task-item {
+    background: #777777;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+#taskList li input[type="checkbox"] {
+    margin-right: 30px;
+   
+}
+
+delete-icon {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+} 
+.delImg {
+  margin-left: 150px;   
+  cursor: pointer;     
+}
+
+
+.delete-icon:hover {
+    transform: scale(1.2);
+}
+
+#deleteSelectedBtn {
+    display: none;
+    margin-top: 10px;
+    background: rgb(101, 101, 101);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#deleteSelectedBtn:hover {
+    background: rgb(255, 0, 0);
+    transition: 0.3s;
+}
